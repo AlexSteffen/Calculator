@@ -91,5 +91,7 @@
 - (IBAction)ClearPressed 
 {
     self.operationHistory.text = @"";
+    self.display.text = @"";
+    [self.brain clearStacks];
 }
 @end
